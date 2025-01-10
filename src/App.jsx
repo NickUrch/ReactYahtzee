@@ -4,6 +4,7 @@ import Dice from "./components/Dice"
 import RollBtn from "./components/RollBtn"
 import Score from "./components/Score"
 import ScoreObjects from "./components/ScoreObjects"
+import Logo from "./images/Logo.png"
 
 export default function Yahtzee() {
 
@@ -367,7 +368,7 @@ export default function Yahtzee() {
   return (
     <main>
       <header>
-        <img className="logo" src="./src/images/Logo.png" alt="Yahtzee! Logo" />
+        <img className="logo" src={Logo} alt="Yahtzee Logo"/>
       </header>
       <h5>Click a die to hold. A green background will hold the die.</h5>
       <section className="dice-container">
