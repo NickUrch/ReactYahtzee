@@ -367,7 +367,7 @@ export default function Yahtzee() {
   return (
     <main>
       <header>
-        <img className="logo" src="/src/images/Logo.png" alt="Yahtzee! Logo" />
+        <img className="logo" src="/./src/images/Logo.png" alt="Yahtzee! Logo" />
       </header>
       <h5>Click a die to hold. A green background will hold the die.</h5>
       <section className="dice-container">
