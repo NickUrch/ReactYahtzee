@@ -9,19 +9,19 @@ export default function Dice(props) {
     function getDieImage() {
         switch (props.value) {
             case 1:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/one.png")
+                return ("src/images/one.png")
             case 2:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/two.png")
+                return ("src/images/two.png")
             case 3:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/three.png")
+                return ("src/images/three.png")
             case 4:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/four.png")
+                return ("src/images/four.png")
             case 5:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/five.png")
+                return ("src/images/five.png")
             case 6:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/six.png")
+                return ("src/images/six.png")
             default:
-                return ("https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/unknown.png")
+                return ("src/images/unknown.png")
         }
     }
 
