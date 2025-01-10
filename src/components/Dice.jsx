@@ -5,23 +5,23 @@ export default function Dice(props) {
     const cssStyle = {
         backgroundColor: props.isHeld ? "#59E391" : "white"
     }
-
+    //https://github.com/NickUrch/ReactYahtzee/blob/main/src/images/five.png
     function getDieImage() {
         switch (props.value) {
             case 1:
-                return ("./src/images/one.png")
+                return ("./blob/main/src/images/one.png")
             case 2:
-                return ("./src/images/two.png")
+                return ("./blob/main/src/images/two.png")
             case 3:
-                return ("./src/images/three.png")
+                return ("./blob/main/src/images/three.png")
             case 4:
-                return ("./src/images/four.png")
+                return ("./blob/main/src/images/four.png")
             case 5:
-                return ("./src/images/five.png")
+                return ("./blob/main/src/images/five.png")
             case 6:
-                return ("./src/images/six.png")
+                return ("./blob/main/src/images/six.png")
             default:
-                return ("./src/images/unknown.png")
+                return ("./blob/main/src/images/unknown.png")
         }
     }
 
