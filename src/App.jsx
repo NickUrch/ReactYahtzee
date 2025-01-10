@@ -7,6 +7,8 @@ import ScoreObjects from "./components/ScoreObjects"
 
 export default function Yahtzee() {
 
+  console.log(window.location.pathname.split('/'))
+
   // States //
   const [dice, setDice] = useState(() => createDice())
   const [score, setScore] = useState(() => ScoreObjects())
